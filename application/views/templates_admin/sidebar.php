@@ -14,17 +14,17 @@
             </a>
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="<?php echo base_url('admin/dashboard_admin') ?>">
                     <i class="fas fa-fw fa-tv"></i>
                     <span>Dashboard</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="<?php echo base_url('admin/data_barang') ?>">
                     <i class="fas fa-fw fa-tv"></i>
                     <span>Data Barang</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="<?php echo base_url('admin/invoices') ?>">
                     <i class="fas fa-fw fa-tshirt"></i>
                     <span>Invoices</span></a>
             </li>
