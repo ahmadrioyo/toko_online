@@ -8,7 +8,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate">
-                    <i class="fas fa-store"></i>
+                    <i class="fa-solid fa-store"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">TOKO ONLINE</div>
             </a>
