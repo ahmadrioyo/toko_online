@@ -10,9 +10,9 @@
             <th>Stok</th>
             <th colspan="3" class="text-center">Aksi</th>
         </tr>
-        <?php foreach ($barang as $brg) : ?>
+        <?php $no=0; foreach ($barang as $brg) : ?>
             <tr>
-                <td><?php echo $brg->id_brg ?></td>
+                <td><?php echo $no++ ?></td>
                 <td><?php echo $brg->nama_brg ?></td>
                 <td><?php echo $brg->keterangan ?></td>
                 <td><?php echo $brg->kategori ?></td>
