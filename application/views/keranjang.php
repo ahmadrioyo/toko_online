@@ -24,4 +24,9 @@
             <td align="right">Rp. <?php echo number_format($this->cart->total() , '0', ',', '.') ?></td>
         </tr>
     </table>
+    <div align="right">
+        <a href="<?php echo base_url('dashboard/hapus_keranjang') ?>" class="btn btn-danger btn-sm mt-3">Hapus Keranjang</a>
+        <a href="<?php echo base_url('dashboard/index') ?>" class="btn btn-primary btn-sm mt-3">Lanjutkan Belanja</a>
+        <a href="<?php echo base_url('dashboard/pembayaran') ?>" class="btn btn-success btn-sm mt-3">Pembayaran</a>
+    </div>
 </div>
